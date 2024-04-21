@@ -1,0 +1,186 @@
+/* Add your custom CSS here */
+body {
+    background-color: #303040;
+    opacity: 0.8;
+ 
+}
+/* Heading Styles */
+.heading {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+h1,h2,h4,label,span, .fa-plane {
+    color: white;
+}
+.heading i {
+    font-size: 24px;
+}
+
+/* Section Heading Styles */
+.section-heading {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Payment Method Styles */
+.payment-method .method {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.payment-method .selected {
+    border-color: white;
+    background-color: green;
+    color: #fff;
+}
+
+.payment-method .method i {
+    margin-right: 10px;
+}
+
+/* Form Input Styles */
+.payment-form input[type="text"] {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    /* CSS for iPad Pro and iPad Air */
+    /* Adjust styles for smaller screens */
+
+    To adjust the footer to the bottom of the page and make the images in the trip summary section appear in a column, you can modify the CSS accordingly. Here's the updated CSS:
+
+    css
+    Copy code
+    /* Add your custom CSS here */
+    body {
+        background-color: #303040;
+        opacity: 0.8;
+        margin: 0; /* Remove default body margin */
+        padding: 0; /* Remove default body padding */
+        min-height: 100vh; /* Ensure body covers the entire viewport height */
+        display: flex;
+        flex-direction: column; /* Ensure footer sticks to the bottom */
+    }
+    
+    /* Heading Styles */
+    .heading {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+    }
+    
+    h1, h2, h4, label, span, .fa-plane {
+        color: white;
+    }
+    
+    .heading i {
+        font-size: 24px;
+    }
+    
+    /* Section Heading Styles */
+    .section-heading {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 24px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    /* Payment Method Styles */
+    .payment-method .method {
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 15px 30px;
+        background-color: yellow;
+        font-weight: bold;
+    }
+    
+    .payment-method .selected {
+        border-color: white;
+        background-color: green;
+        color: #fff;
+    }
+    
+    .payment-method .method i {
+        margin-right: 10px;
+    }
+    
+    /* Form Input Styles */
+    .payment-form input[type="text"] {
+        padding: 12px;
+        border-radius: 5px;
+    }
+    
+    /* Button Styles */
+    .btn-primary {
+        background-color: #007bff;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        padding: 12px 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    
+    /* Footer Styles */
+    @media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+    /* CSS for Surface Pro 7 */
+    /* Adjust styles for smaller screens */
+    .footer {
+        background-color: #303040;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto; /* Push footer to the bottom */
+    }
+}
+
+@media screen and (max-width: 280px) {
+    /* CSS for Galaxy Z Fold */
+    /* Adjust styles for smaller screens */
+    .footer {
+        background-color: #303040;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto; /* Push footer to the bottom */
+    }
+}
+

@@ -1,0 +1,50 @@
+body {
+    background-color: #303040;
+    opacity: 0.8;
+ 
+}
+
+.c-item {
+  height: 320px;
+}
+
+
+.c-img {
+height: 100%;
+object-fit: cover;
+filter: brightness(0.6);
+}
+
+.overview{
+   height: 180px;
+   background-color: #d3dae1;
+}
+.text-center{
+    text-align: center;
+    
+}
+.my-5{
+  color:azure;
+}
+
+.custom-img2{
+    padding-bottom:15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .custom-img1 {
+      padding-bottom: 25px; 
+    }
+  }
+
+  
+  @media (min-width: 1240px) {
+    .custom-img1 {
+      padding: 0px;
+      object-fit: cover;
+    }
+  }
+  
